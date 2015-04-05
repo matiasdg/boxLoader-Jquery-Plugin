@@ -3,7 +3,7 @@
 
         var config = $.extend({
         	//defaults values
-	        direction: "left",
+	        direction: "x",
 	        position: "-50%",
 	        effect: "fadeIn",
 	        duration: "1s",
@@ -67,7 +67,7 @@
 
 		switch(dir)
          	{
-         		case "left":element.css({
+         		case "x":element.css({
 					            WebkitTransform: "translateX("+pos+")",
 					            MozTransform: "translateX("+pos+")",
 					            OTransform: "translateX("+pos+")",
@@ -76,7 +76,7 @@
 				            });
          					animate_type = "a";
          		break;
-         		case "bottom": element.css({
+         		case "y": element.css({
 					            WebkitTransform: "translateY("+pos+")",
 					            MozTransform: "translateY("+pos+")",
 					            OTransform: "translateY("+pos+")",

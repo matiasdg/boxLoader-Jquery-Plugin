@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$(".left").boxLoader({
-	    direction:"left",
+	    direction:"x",
 	    position: "-50%",
 	    effect: "fadeIn",
 	    duration: "1s",
@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 	$(".right").boxLoader({
-	    direction:"left",
+	    direction:"x",
 	    position: "50%",
 	    effect: "fadeIn",
 	    duration: "1s",
@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 	$("#keep").boxLoader({
-	    direction:"left",
+	    direction:"x",
 	    position: "50%",
 	    effect: "fadeIn",
 	    duration: "1s",
@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 
 	$("#your").boxLoader({
-	    direction:"left",
+	    direction:"x",
 	    position: "-50%",
 	    effect: "fadeIn",
 	    duration: "3s",
@@ -33,7 +33,7 @@ $(document).ready(function(){
 });
 
 	$("#mind").boxLoader({
-	    direction:"bottom",
+	    direction:"y",
 	    position: "100%",
 	    effect: "none",
 	    duration: "2s",
@@ -41,7 +41,7 @@ $(document).ready(function(){
 });
 
 	$("#in").boxLoader({
-	    direction:"bottom",
+	    direction:"y",
 	    position: "100%",
 	    effect: "fadeIn",
 	    duration: "1s",
@@ -49,7 +49,7 @@ $(document).ready(function(){
 });
 
 	$("#creative").boxLoader({
-	    direction:"left",
+	    direction:"x",
 	    position: "100%",
 	    effect: "fadeIn",
 	    duration: "3s",
