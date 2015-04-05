@@ -37,9 +37,11 @@ direction
 
 The direction you want move the element.
 
--X (Default).
--Y.
--None.
+X (Default).
+
+Y.
+
+None.
 
 ```
 position
@@ -57,9 +59,11 @@ Values:
 effect
 ```
 
-Values: 
--FadeIn (Default).
--None.
+Values:
+
+FadeIn (Default).
+
+None.
 
 
 ```
