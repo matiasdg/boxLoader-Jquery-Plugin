@@ -20,7 +20,7 @@ If you don't put the scripts before the ```</body>```, it might doesn't work cor
 Example:
 ```
 $(div).boxLoader({
-    direction:"left",
+    direction:"x",
     position: "100%",
     effect: "fadeIn",
     duration: "1s",
@@ -90,7 +90,7 @@ If you want to use it when you scrolls inside of other container, you need to ad
 
 ```
 $(div).boxLoader({
-    direction:"left",
+    direction:"x",
     position: "100%",
     effect: "fadeIn",
     duration: "1s",
