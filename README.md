@@ -8,7 +8,7 @@ What you need
 How to use
 --------------
 
-After you downloaded the files, put the scripts ahead before the ```</body>``` tag:
+After you downloaded the files, put the scripts before the ```</body>``` tag:
 
 ```
 <script src="jquery.js"></script>
@@ -49,7 +49,7 @@ position
 The value you want to move the element.
 
 Example: 
-If you want the element appear from the Left but with a little movement to the original position, you need to set: ```direction:"x"``` and ```position:"-10%"```.
+If you want the element appear from the Left but with a little movement to the original position, you might try to set: ```direction:"x"``` and ```position:"-10%"```.
 
 Values:
 -100% to 100%. 50% by default.
@@ -78,10 +78,10 @@ Any you want. 1s by default.
 windowarea
 ```
 
-It's the window area where the element will appear when you are scrolling.
+The window area where the element will appear when you are scrolling.
 
 Example:
-If you set ```windowarea:100%``` the element will be appear at the bottom of the window.
+If you set ```windowarea:100%``` the element will appear at the bottom of the window.
 
 Values:
 0% to 100%. 50% default.
@@ -90,7 +90,7 @@ Values:
 ```
 container
 ```
-If you want to use it when you scrolls inside of other container, you need to add:
+If you want to use it when you scroll inside of other container, you need to add:
 
 ```
 $(div).boxLoader({
