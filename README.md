@@ -1,3 +1,5 @@
+Note: I made this plugin just for fun, and to learn how to make a jquery plugin. So, it's not perfect (and my english either).
+
 
 What you need
 --------------
