@@ -21,7 +21,7 @@ If you don't put the scripts before the ```</body>```, it might doesn't work cor
 
 Example:
 ```
-$(div).boxLoader({
+$('.myDiv').boxLoader({
     direction:"x",
     position: "100%",
     effect: "fadeIn",
@@ -95,7 +95,7 @@ container
 If you want to use it when you scroll inside of other container, you need to add:
 
 ```
-$(div).boxLoader({
+$('.myDiv').boxLoader({
     direction:"x",
     position: "100%",
     effect: "fadeIn",
