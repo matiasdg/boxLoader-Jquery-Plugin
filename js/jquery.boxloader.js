@@ -2,7 +2,6 @@
     $.fn.boxLoader = function (options) {
 
         var config = $.extend({
-        	//defaults values
 	        direction: "x",
 	        position: "-50%",
 	        effect: "fadeIn",
